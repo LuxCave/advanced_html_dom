@@ -21,7 +21,7 @@ Features
 
 If you love Advanced HTML Dom please [vote for it](http://stackoverflow.com/questions/3577641/how-do-you-parse-and-process-html-xml-in-php#27539256) here!
 
-# How to install it
+# How to install it via composer
 
 Add the following code to your composer.json
 ```json
@@ -34,3 +34,10 @@ Add the following code to your composer.json
     }
 }
 ```
+
+You don't need "simple-php-dom" to make it work. 
+
+-or include it as usual, like 
+
+```include_once( #installation_directory# . 'advanced_html_dom.php'); ```
+
